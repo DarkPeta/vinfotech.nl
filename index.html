@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vinfotech Consultancy — Home</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600;700&family=Karla:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+<div class="nav">
+  <a href="index.html" class="nav-brand">
+    <img src="assets/logo.png" alt="Vinfotech Consultancy">
+    <span class="h name">Vinfotech Consultancy</span>
+  </a>
+  <div class="nav-right">
+    <div class="nav-links b">
+      <a href="index.html" aria-current="page" data-i18n="navHome">Home</a>
+      <a href="services.html" data-i18n="navServices">Services</a>
+      <a href="ai-automation.html" data-i18n="navAI">AI + Automation</a>
+      <a href="experience.html" data-i18n="navExperience">Experience</a>
+    </div>
+    <div class="lang m">
+      <button data-lang-btn="en">EN</button>
+      <span class="sep">/</span>
+      <button data-lang-btn="nl">NL</button>
+    </div>
+  </div>
+</div>
+
+<div class="hero">
+  <div class="hero-copy">
+    <span class="badge m" data-i18n="badge">SENIOR ICT CONSULTANCY · TERNEUZEN, NL</span>
+    <h1 class="h" data-i18n="heroTitle">ICT that stays secure, manageable and AI-ready.</h1>
+    <p class="b" data-i18n="heroBody">35+ years combining strategic oversight with hands-on execution — ICT management, security and cloud. I build structures that keep working after I leave.</p>
+    <div class="hero-ctas">
+      <a href="services.html" class="cta cta-primary b" data-i18n="ctaServices">See services</a>
+      <a href="ai-automation.html" class="cta cta-secondary b" data-i18n="ctaAI">AI + Automation →</a>
+    </div>
+  </div>
+  <div class="hero-visual">
+    <svg viewBox="0 0 340 340" width="340" height="340" role="img" aria-label="Vinfotech mark">
+      <g stroke-linecap="round" stroke-width="30">
+        <line x1="170" y1="170" x2="170" y2="60"  stroke="#cccc5c" />
+        <line x1="170" y1="170" x2="280" y2="170" stroke="#566614" />
+        <line x1="170" y1="170" x2="170" y2="280" stroke="#f4b817" />
+        <line x1="170" y1="170" x2="60"  y2="170" stroke="#9c1d1e" />
+      </g>
+      <circle cx="170" cy="170" r="14" fill="#ffffff" stroke="#e3e1da" stroke-width="1.5" />
+    </svg>
+  </div>
+</div>
+
+<div class="section" style="padding-top:0;">
+  <div class="section-heading">
+    <h2 class="h" data-i18n="whatIDo">What I do</h2>
+    <a href="services.html" class="link b" data-i18n="allServicesLink">All services →</a>
+  </div>
+  <div class="cards-4" style="margin-top:28px;">
+    <div class="card">
+      <div class="dot" style="background:#f4b817;"></div>
+      <div class="h title" data-i18n="card1Title">AI adoption &amp; governance</div>
+      <div class="b desc" data-i18n="card1Desc">Vendor-agnostic: Microsoft Copilot, Claude, or a specific functional LLM — matched to the use case, not locked to one stack.</div>
+    </div>
+    <div class="card">
+      <div class="dot" style="background:#9c1d1e;"></div>
+      <div class="h title" data-i18n="card2Title">Security &amp; CISO</div>
+      <div class="b desc" data-i18n="card2Desc">Microsoft security architecture, full scope — plus BIO/BIO2, ISO 27001, GDPR/AVG and NIS2.</div>
+    </div>
+    <div class="card">
+      <div class="dot" style="background:#566614;"></div>
+      <div class="h title" data-i18n="card3Title">Microsoft 365 &amp; Azure</div>
+      <div class="b desc" data-i18n="card3Desc">Architecture, migration, governance, adoption.</div>
+    </div>
+    <div class="card">
+      <div class="dot" style="background:#cccc5c;"></div>
+      <div class="h title" data-i18n="card4Title">ICT management</div>
+      <div class="b desc" data-i18n="card4Desc">Interim management, supplier management, roadmaps.</div>
+    </div>
+  </div>
+</div>
+
+<div class="section-tight">
+  <div class="callout">
+    <div class="callout-row">
+      <div style="max-width:620px; display:flex; flex-direction:column; gap:10px;">
+        <span class="label m" data-i18n="panaderosLabel">BUILDING WHAT'S NEXT</span>
+        <h2 class="h" data-i18n="panaderosTitle">An agentic business framework, for any business.</h2>
+        <p class="b" data-i18n="panaderosBody">Data, process intelligence and execution — decoupled, so the same framework can run on any business's own data and rules, not tied to one industry or dataset.</p>
+      </div>
+      <a href="ai-automation.html" class="cta cta-primary b" style="white-space:nowrap;" data-i18n="panaderosCta">Read more →</a>
+    </div>
+  </div>
+</div>
+
+<div class="footer m">
+  <span>Vinfotech Consultancy &middot; KvK 57147922</span>
+  <span>pbakker@vinfotech.nl &middot; www.vinfotech.nl</span>
+</div>
+
+<script>
+window.I18N = {
+  en: {
+    navHome: "Home", navServices: "Services", navAI: "AI + Automation", navExperience: "Experience",
+    badge: "SENIOR ICT CONSULTANCY · TERNEUZEN, NL",
+    heroTitle: "ICT that stays secure, manageable and AI-ready.",
+    heroBody: "35+ years combining strategic oversight with hands-on execution — ICT management, security and cloud. I build structures that keep working after I leave.",
+    ctaServices: "See services", ctaAI: "AI + Automation →",
+    whatIDo: "What I do", allServicesLink: "All services →",
+    card1Title: "AI adoption & governance",
+    card1Desc: "Vendor-agnostic: Microsoft Copilot, Claude, or a specific functional LLM — matched to the use case, not locked to one stack.",
+    card2Title: "Security & CISO",
+    card2Desc: "Microsoft security architecture, full scope — plus BIO/BIO2, ISO 27001, GDPR/AVG and NIS2.",
+    card3Title: "Microsoft 365 & Azure", card3Desc: "Architecture, migration, governance, adoption.",
+    card4Title: "ICT management", card4Desc: "Interim management, supplier management, roadmaps.",
+    panaderosLabel: "BUILDING WHAT'S NEXT",
+    panaderosTitle: "An agentic business framework, for any business.",
+    panaderosBody: "Data, process intelligence and execution — decoupled, so the same framework can run on any business's own data and rules, not tied to one industry or dataset.",
+    panaderosCta: "Read more →",
+  },
+  nl: {
+    navHome: "Home", navServices: "Diensten", navAI: "AI + Automatisering", navExperience: "Ervaring",
+    badge: "SENIOR ICT-CONSULTANCY · TERNEUZEN, NL",
+    heroTitle: "ICT die veilig, beheersbaar en AI-ready blijft.",
+    heroBody: "35+ jaar ervaring waarin strategisch overzicht en praktische uitvoering samenkomen — ICT-management, security en cloud. Ik bouw structuren die blijven werken nadat ik vertrek.",
+    ctaServices: "Bekijk diensten", ctaAI: "AI + Automatisering →",
+    whatIDo: "Wat ik doe", allServicesLink: "Alle diensten →",
+    card1Title: "AI-adoptie & governance",
+    card1Desc: "Leveranciersonafhankelijk: Microsoft Copilot, Claude, of een specifieke functionele LLM — passend bij de usecase, niet vastgezet op één stack.",
+    card2Title: "Security & CISO",
+    card2Desc: "Microsoft security-architectuur, volledige scope — plus BIO/BIO2, ISO 27001, AVG/GDPR en NIS2.",
+    card3Title: "Microsoft 365 & Azure", card3Desc: "Architectuur, migratie, governance, adoptie.",
+    card4Title: "ICT-management", card4Desc: "Interim-management, leveranciersmanagement, roadmaps.",
+    panaderosLabel: "WAT ER AANKOMT",
+    panaderosTitle: "Een agentic business framework, voor elk bedrijf.",
+    panaderosBody: "Data, procesintelligentie en uitvoering — ontkoppeld, zodat hetzelfde framework de eigen data en regels van elk bedrijf kan laten lopen, niet gebonden aan één branche of dataset.",
+    panaderosCta: "Lees meer →",
+  }
+};
+</script>
+<script src="assets/i18n.js"></script>
+</body>
+</html>
